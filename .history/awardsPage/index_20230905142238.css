@@ -8,7 +8,7 @@
 #awards-page {
   width: 100%;
   min-height: 100vh;
-  padding: 108px 135px 128px 135px;
+  padding: 108px 0 128px 135px;
   background: #fdf0e9;
 }
 
@@ -25,17 +25,12 @@
 
 table {
   width: 100%;
-  border-collapse: collapse;
 }
 
 table tr {
   width: 100%;
-  border-top: 1px solid #F3D1BF;
+}
 
-}
-table tr td{
-    padding: 15px 0;
-}
 table tr td:first-child .img-1 {
   display: flex;
   align-items: center;
@@ -72,7 +67,6 @@ table tr td:nth-child(2) p {
 table tr td:last-child .text-box {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
 }
 
 table tr td:last-child .text-box h3 {

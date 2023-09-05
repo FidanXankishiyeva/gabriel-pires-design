@@ -73,6 +73,7 @@ table tr td:last-child .text-box {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  background-color: red;
 }
 
 table tr td:last-child .text-box h3 {
